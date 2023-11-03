@@ -10,3 +10,4 @@ router.get('/', function(req, res, next) {
     res.render('board', {title: 'Board Display', query : query})
   });  
   module.exports = router;
+  
